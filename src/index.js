@@ -6,6 +6,23 @@ const taskRouter = require('./routers/task')
 const app = express()
 const port = process.env.PORT || 3000
 
+// app.use((req, res, next) => {
+//     if (req.method === 'GET') {
+//         res.send('GET requests are disabled')
+//     } else {
+//         next()
+//     }
+// })
+
+// app.use((req, res, next) => {
+//     var isService = false
+//     if (isService) {
+//         res.status(503).send('Server is serviced')
+//     } else {
+//         next()
+//     }
+// })
+
 app.use(express.json())
 
 app.use(userRouter)

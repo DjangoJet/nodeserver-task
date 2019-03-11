@@ -100,7 +100,7 @@ Adress dający dostęp do elementów "Pack". Dostępny jest za pomocą adresu "/
 
 ## Article
 
-Adress dający dostęp do elementów "Article". Dostępny jest za pomocą adresu "/articles". W ramach endpointu dostępne są następujące działania:
+Adres dający dostęp do elementów "Article". Dostępny jest za pomocą adresu "/articles". W ramach endpointu dostępne są następujące działania:
 
 ### 1. Get all
 
@@ -111,4 +111,10 @@ Adress dający dostęp do elementów "Article". Dostępny jest za pomocą adresu
 ### 4. Update 
 
 ### 5. Delate
+
+# Security
+
+
+
+
 
